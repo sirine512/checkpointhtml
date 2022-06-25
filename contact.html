@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="./css/cont.css">
         <title> Contact </title>
 </head>
 <body>
     <header>
-        <nav> <p> <em><strong>Web Dev </strong></em>
-            <a href="./index.html" > home </a>
-            <a href="./about.html" > about </a>
-            <a href="./work.html" > work </a>
-            <a href="./resume.html" > resume</a>
-            <a href="./contact.html"> contact </a>
+        <nav> <table> <th><strong>Web Dev </strong></th>
+           <th class="link"> <ul type="none" >
+            <li><a href="./index.html" > home </a></li>
+            <li><a href="./about.html" > about </a></li>
+            <li><a href="./work.html" > work </a></li>
+            <li><a href="./resume.html" > resume</a></li>
+            <li><a href="./contact.html"> contact </a></li>
+            </ul>
+            </th>
             </p>
+            </table>
         </nav>
         <hr />
     </header>
 <main>
-<form>
+<form align="center">
     <section>
         <h1> Contact </h1>
     </section>
-    <label>Name:</label>
+    <label>Name  </label>
       <input type="text" name="first name" placeholder="Type your name here" />
       <br />
 
-      <label>Email:</label>
+      <label>Email  </label>
       <input type="email" name="Email" placeholder="Enter your Email"/>
       <br />
 
       
 
-      <label>Message:</label>
-      <textarea name="Message" placeholder="Enter your message here" cols="20" rows="10"></textarea> 
+      <label>Message  </label>
+      <textarea name="Message" placeholder="Enter your message here..." cols="20" rows="10"></textarea> 
       <br />
-      <label>About</label>
+      <label>About  </label>
       <select>
         <option value="Webdesign">Web Design</option>
         <option value="Webdevelopment">Web Developement</option>
         <option value="videoediting">Video Editing</option>
       </select><br>
 
-      <input type="submit" value="Submit" />
+      <input type="submit" value="Submit" class="sub"/>
 </form>
 </main>
 <footer> <hr />  &#169; <strong> web dev at 2022 </strong> 

@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="./css/style.css">
         <title> Home </title>
     </head>
 <body>
    <header>
-       <nav> <p> <em><strong>Web Dev </strong></em>
-        <a href="./index.html" > home </a>
-        <a href="./about.html" > about </a>
-        <a href="./work.html" > work </a>
-        <a href="./resume.html" > resume</a>
-        <a href="./contact.html"> contact </a>
+       <nav> <table  cellpadding="10"> <th><strong>Web Dev </strong></th>
+        <th class="link">
+        <ul type="none">
+        <li><a href="./index.html" > home </a></li>
+        <li><a href="./about.html" > about </a></li>
+        <li><a href="./work.html" > work </a></li>
+        <li><a href="./resume.html" > resume</a></li>
+        <li><a href="./contact.html"> contact </a></li>
+        </ul>
         </p>
-        <form align="right">
+        </th>
+        <th>
+        <form>
             Search <input type = "text" name = "search" />
         </form>
+        </th>
+        </table>
     </nav>
     
     <hr />
    </header>
    <main>
        
-       <table cellpadding="100">
+       <table cellpadding="150">
     
     <th>
-        <h1>I am  Jhon Doe</h1>
-    <p> I'm Jhon, professional web developer with long time experience.
+        <h1 class="test">I am  Jhon Doe</h1>
+    <p class="pre"> I'm Jhon, professional web developer with long time experience.
     </p>
     </th>
-    <th><img src="./img/Web-Developer.jpg" alt="A developer" > </img> </th>
+    <th><img src="./img/Web-Developer.jpg" alt="A developer" class="image" height="300" width="300"> </th>
     </table>
     <table>
         <th><a href="https://facebook.com/"><img src="./img/facebook.png" alt="Facebook" width="30" height="30" > </img> </a></th>
@@ -38,13 +46,13 @@
     </table>
     <hr />
 <h3>Our Services</h3>
-<ul type="square">
+<ul type="square" class="list">
 	<li>Web Design</li>
 	<li>Web Developement</li>
 	<li>Video Editing</li>
 </ul>
    </main>
-    <footer> <hr />  &#169; <strong> web dev at 2022 </strong> 
+    <footer align="center"> <hr />  &#169; <strong> web dev at 2022 </strong> 
         <br>
            </footer>
        
